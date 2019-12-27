@@ -49,7 +49,7 @@ Build a linked list, or "parent tree".
 		children: ["two"]
 	},
 	two: {
-		id: "twp",
+		id: "two",
 		parentId: "one",
 		children: ["three", "four"]
 	},
@@ -96,3 +96,11 @@ Where A is the parent node, B & C are level 1 children, and D, E, F & G are leve
 * [scenario 7](./scenario7.json)
 * [scenario 8](./scenario8.json)
 
+# Notes
+
+Consideration will be take for:
+
+* Ability to deal with edge cases and bad data sets
+* Performance (O notation)
+* Readability and code cleanliness
+* Testability
