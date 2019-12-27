@@ -98,7 +98,7 @@ Where A is the parent node, B & C are level 1 children, and D, E, F & G are leve
 
 # Notes
 
-Consideration will be take for:
+Consideration will be taken for:
 
 * Ability to deal with edge cases and bad data sets
 * Performance (O notation)
