@@ -88,8 +88,11 @@ Where A is the parent node, B & C are level 1 children, and D, E, F & G are leve
 # Scenarios
 
 * [scenario 1](./scenario1.json)
-- one with depth of 1
-- one with two root nodes
-- one with a hanging level 2 or 3 object
-- one with a circular dependency
+* [scenario 2](./scenario2.json)
+* [scenario 3](./scenario3.json)
+* [scenario 4](./scenario4.json)
+* [scenario 5](./scenario5.json)
+* [scenario 6](./scenario6.json)
+* [scenario 7](./scenario7.json)
+* [scenario 8](./scenario8.json)
 
