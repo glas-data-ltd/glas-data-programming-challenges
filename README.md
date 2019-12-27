@@ -1,4 +1,4 @@
-# glas-data-programming-challenges
+# glas-data-programming-challenge
 
 > Please complete the challenge outlined below.
 
