@@ -11,7 +11,7 @@ Given the following relational object structure:
 }
 ```
 
-Build a liked list, or "parent tree". 
+Build a linked list, or "parent tree". 
 
 # Example 1:
 
@@ -35,7 +35,7 @@ Build a liked list, or "parent tree".
 		id: "four",
 		parentId: "two"
 	}
-] // the array of objects in any order
+], // the array of objects in any order
 -1 // the depth to which to build the tree
 ```
 
@@ -78,4 +78,18 @@ Given the following object structure:
 
 ![structure](./Challenge.jpg)
 
+Where A is the parent node, B & C are level 1 children, and D, E, F & G are level 2 children:
+
+* A depth parameter of 0 results in an empty object
+* A depth parameter of 1 results in a parent tree consisting only of A, B & C
+* A depth parameter of 2 results in the entire parent tree
+* A negative depth parameter indicates there are no limits to the tree
+
+# Scenarios
+
+* [scenario 1](./scenario1.json)
+- one with depth of 1
+- one with two root nodes
+- one with a hanging level 2 or 3 object
+- one with a circular dependency
 
